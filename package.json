@@ -1,18 +1,21 @@
 {
-  "name": "file-sharing---web",
-  "version": "1.0.0",
-  "description": "",
+  "name": "hostmydisk",
+  "version": "1.1.0",
+  "description": "Host your local disk in you LAN / WAN.so that any one can access your harddisk over the network by using the web browser like indexing",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+   
     "start": "node app",
     "build": "npx webpack"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["filesharing","index your disk in broswer","local indexing","share your hard-disk"],
+  "author": {
+    "name": "Ankit K Kashyap",
+    "email": "kr.ks.ankit@gmail.com"
+  },
   "license": "ISC",
   "dependencies": {
-    "cors": "^2.8.5",
+
     "emitter": "^0.0.5",
     "express": "^4.19.2",
     "serve-index": "^1.9.1"
