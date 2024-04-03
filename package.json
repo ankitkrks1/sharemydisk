@@ -1,6 +1,6 @@
 {
   "name": "hostmydisk",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Host your local disk in you LAN / WAN.so that any one can access your harddisk over the network by using the web browser like indexing",
   "main": "app.js",
   "scripts": {

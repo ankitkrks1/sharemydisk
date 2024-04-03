@@ -24,7 +24,9 @@ simple download/copythe shareMe folder and run the below command only available 
 node app.js -p 3000 -d ../abc/yourDirectory# hostmydisk
 
 # Don't know nodejs still wanna use ? 
-step 1 : Download Nodejs from the official site or googling it.
-step 2 :- copy the file ./shareMe/app where you want to serve the content
-step 3 :- Open terminal / poweshell and run node app in the same path. 
+step 1 :- Download Nodejs from the official site or googling it.
+step 2 :- npm i hostmydisk
+step 3 :- npm run build
+step 4 :- copy the folder ./shareMe where you want to serve the content
+step 5 :- Open terminal / poweshell and run node app in the same path. 
 
