@@ -7,10 +7,14 @@ This is a Node project that serves the directory over local/internet if port for
 # How to host/use/run?
 
 ***  Using npx ***
-npx hostmydis
 
-`npx sharemydisk -p 80 -d /yourdirectory/path`
+```bash
+$ npx sharemydisk -p 80 -d /yourdirectory/path
+```
 
+Open the link mentioned in `server is up http://192.168.0.1013:3000`
+
+CTR + C : to exit.
 *** Using npm ***
 
 Then import in your application to use it. like 
@@ -37,15 +41,18 @@ Simply download/copy the `shareMe` folder and run the command below, only availa
 
 # For running with flags:
 
-- `-p` for port
-- `-d` for directory.
+- `-p` for port // default is 3000
+- `-d` for directory. // default is your current directory
 
 `node app.js -p 3000 -d ../abc/yourDirectory# sharemydisk`
 
 # Don't know Node.js but still want to use?
 
 1. Download Node.js from the official site or by searching it on Google.
-2. `npm i sharemydisk`
+2. `npm i sharemydisk` or 
+```bash
+$ npx sharemydisk -p 80 -d /yourdirectory/path
+```
 3. `npm run build`
 4. Copy the folder `./shareMe` where you want to serve the content.
 5. Open terminal/powershell and run `node app` in the same path.

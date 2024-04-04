@@ -1,6 +1,6 @@
 {
   "name": "sharemydisk",
-  "version": "1.0.6",
+  "version": "1.0.9",
   "description": "Host your local disk in you LAN / WAN.so that any one can access your harddisk over the network by using the web browser like indexing",
   "main": "app.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "build": "npx webpack"
   },
   "bin": {
-    "sharemydisk":"./index.js"
+    "sharemydisk": "./index.js"
   },
   "keywords": [
     "hostmydisk",

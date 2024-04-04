@@ -5,6 +5,7 @@ var serveIndex = require("serve-index"); // this package is used to server folde
 const app = express();
 const getPort = require("./src/getPort");
 const getDirectory = require("./src/getDirectory");
+const getLocalIPAddress = require("./src/getIP");
 const port = getPort(process.argv);
 
 const location = getDirectory(process.argv);
@@ -15,7 +16,7 @@ app.use("/", express.static(location), serveIndex(location));
 
 const sharemydisk = () => {
   app.listen(port, () => {
-    console.log("server is up", "http://localhost:" + port);
+    console.log("server is up",'http://'+getLocalIPAddress()+':'+ port);
   });
 };
 
