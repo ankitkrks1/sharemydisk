@@ -1,32 +1,51 @@
-Author :- Ankit K Kashyap
-# what is this all about ?
+**Author:** Ankit K Kashyap
 
-This ia node project that serve the directory over local/internet if port forwarding enabled. 
-Host your local disk in you LAN / WAN. so that any one can access your hard disk over the network by using the web browser like indexing
+# What is this all about?
 
-# How to host  ?
-For development :-
-1. npm i 
-2. npm start
+This is a Node project that serves the directory over local/internet if port forwarding is enabled. Host your local disk on your LAN/WAN so that anyone can access your hard disk over the network by using a web browser for indexing.
 
-# For production Build :- 
-npm run build
-inside shareMe/app.js the build is ready to run in any where without any node_module file 
-if you want to know to build go to :- https://youtu.be/P1v227ZFqM4
+# How to host/use/run?
 
-simple download/copythe shareMe folder and run the below command only available after npm run build.
+***  Using npx ***
+npx hostmydis
 
-#  For running with flags 
+`npx sharemydisk -p 80 -d /yourdirectory/path`
 
--p for port
--d for directory. 
+*** Using npm ***
 
-node app.js -p 3000 -d ../abc/yourDirectory# hostmydisk
+Then import in your application to use it. like 
 
-# Don't know nodejs still wanna use ? 
-step 1 :- Download Nodejs from the official site or googling it.
-step 2 :- npm i hostmydisk
-step 3 :- npm run build
-step 4 :- copy the folder ./shareMe where you want to serve the content
-step 5 :- Open terminal / poweshell and run node app in the same path. 
+`index.js`
 
+`const sharemydisk = require('sharemydisk')`
+
+`sharemydisk()`
+
+Then 
+execute it from command `node index.js -p 3001 -d ../`
+
+
+**For development:**
+1. `npm i`
+2. `npm start`
+
+**For production build:**
+`npm run build`
+Inside `shareMe/app.js`, the build is ready to run anywhere without any `node_module` files. If you want to learn how to build, go to: [https://youtu.be/P1v227ZFqM4](https://youtu.be/P1v227ZFqM4)
+
+Simply download/copy the `shareMe` folder and run the command below, only available after `npm run build`.
+
+# For running with flags:
+
+- `-p` for port
+- `-d` for directory.
+
+`node app.js -p 3000 -d ../abc/yourDirectory# sharemydisk`
+
+# Don't know Node.js but still want to use?
+
+1. Download Node.js from the official site or by searching it on Google.
+2. `npm i sharemydisk`
+3. `npm run build`
+4. Copy the folder `./shareMe` where you want to serve the content.
+5. Open terminal/powershell and run `node app` in the same path.
