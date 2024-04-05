@@ -60,4 +60,4 @@ $ npx sharemydisk -p 80 -d /yourdirectory/path
 Buy me a Dosha :
 
 [![Open Collective](https://img.shields.io/opencollective/all/sharemydisk?logo=open-collective)](https://opencollective.com/sharemydisk)
-[![GitHub Sponsors](https://img.shields.io/github/sponsors/yourusername?label=GitHub%20Sponsors&logo=github)](https://github.com/sponsors/yourusername)
+[![GitHub Sponsors](https://img.shields.io/github/sponsors/ankitkrks1?label=GitHub%20Sponsors&logo=github)](https://github.com/sponsors/ankitkrks1)
