@@ -56,3 +56,8 @@ $ npx sharemydisk -p 80 -d /yourdirectory/path
 3. `npm run build`
 4. Copy the folder `./shareMe` where you want to serve the content.
 5. Open terminal/powershell and run `node app` in the same path.
+
+Buy me a Dosha :
+
+[![Open Collective](https://img.shields.io/opencollective/all/sharemydisk?logo=open-collective)](https://opencollective.com/sharemydisk)
+[![GitHub Sponsors](https://img.shields.io/github/sponsors/yourusername?label=GitHub%20Sponsors&logo=github)](https://github.com/sponsors/yourusername)

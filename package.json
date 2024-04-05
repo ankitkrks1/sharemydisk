@@ -1,11 +1,15 @@
 {
   "name": "sharemydisk",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Host your local disk in you LAN / WAN.so that any one can access your harddisk over the network by using the web browser like indexing",
-  "funding": {
+  "funding": [{
     "type": "opencollective",
     "url": "https://opencollective.com/sharemydisk"
-  },
+},
+{
+    "type": "github",
+    "url": "https://github.com/sponsors/ankitkrks1"
+}],
   "main": "app.js",
   "scripts": {
     "start": "node index",
