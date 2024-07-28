@@ -1,6 +1,6 @@
 **Author:** Ankit K Kashyap
 
-[![NPM](https://nodei.co/npm/haremydisk.png)](https://nodei.co/npm/sharemydisk/)
+[![NPM](https://nodei.co/npm/sharemydisk.png)](https://nodei.co/npm/sharemydisk/)
 
 # What is this all about?
 
