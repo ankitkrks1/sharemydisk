@@ -1,12 +1,14 @@
-const os = require('os');
+import * as os from 'os';
 
 // Function to retrieve local IP address
 function getLocalIPAddress() {
   const interfaces = os.networkInterfaces();
   for (const iface of Object.values(interfaces)) {
-    for (const { address, family, internal } of iface) {
-      if (family === 'IPv4' && !internal) {
-        return address;
+    if (iface) {
+      for (const { address, family, internal } of iface) {
+        if (family === 'IPv4' && !internal) {
+          return address;
+        }
       }
     }
   }
@@ -17,4 +19,4 @@ function getLocalIPAddress() {
 const localIPAddress = getLocalIPAddress();
 console.log('Local IP address:', localIPAddress);
 
-module.exports = getLocalIPAddress
+export default getLocalIPAddress;

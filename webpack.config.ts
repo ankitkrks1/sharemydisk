@@ -1,10 +1,11 @@
-const path = require("path");
-const CopyWebpackPlugin = require("copy-webpack-plugin");
+
+import * as path from 'path';
+import CopyWebpackPlugin from 'copy-webpack-plugin';
 
 module.exports = {
   target: "node",
   mode: "production",
-  entry: "./app.js",
+  entry: "./dist/index.js",
   output: {
     filename: "app.js",
     path: path.resolve(__dirname, "shareMe"),
