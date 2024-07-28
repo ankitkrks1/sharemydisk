@@ -1,5 +1,7 @@
 **Author:** Ankit K Kashyap
 
+[![NPM](https://nodei.co/npm/haremydisk.png)](https://nodei.co/npm/sharemydisk/)
+
 # What is this all about?
 
 This is a Node project that serves the directory over local/internet if port forwarding is enabled. Host your local disk on your LAN/WAN so that anyone can access your hard disk over the network by using a web browser for indexing.
