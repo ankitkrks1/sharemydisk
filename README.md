@@ -59,6 +59,10 @@ $ npx sharemydisk -p 80 -d /yourdirectory/path
 4. Copy the folder `./shareMe` where you want to serve the content.
 5. Open terminal/powershell and run `node app` in the same path.
 
+# Port Forwarding using VS Code.
+if you have vs code then you can open Terminal > then click on Port and forward the port by making the link as public 
+( by right click on the port address ) By this way you can share this link to anyone. 
+
 Buy me a Dosha :
 
 [![Open Collective](https://img.shields.io/opencollective/all/sharemydisk?logo=open-collective)](https://opencollective.com/sharemydisk)
