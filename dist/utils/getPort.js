@@ -5,7 +5,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const getHttps_1 = __importDefault(require("./getHttps"));
 exports.default = (arg) => {
-    if (arg.indexOf('-p') !== -1 && !(0, getHttps_1.default)(arg)) {
+    if (arg.indexOf('-p') !== -1) {
         return parseInt(arg[arg.indexOf('-p') + 1]);
     }
     else {
