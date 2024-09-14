@@ -1,8 +1,15 @@
+import getHttps from './getHttps';
+
 export default (arg: string[]) => {
-  if (arg.indexOf('-p') !== -1) {
+  if (arg.indexOf('-p') !== -1 && !getHttps(arg)) {
     return parseInt(arg[arg.indexOf('-p') + 1]);
   } else {
-    console.log('switching to default port :-  3000');
-    return 3000;
+    if (getHttps(arg)) {
+      console.log('Secure Mode selected , Https port is 443.');
+      return 443;
+    } else {
+      console.log('switching to default port :-  3000');
+      return 3000;
+    }
   }
 };

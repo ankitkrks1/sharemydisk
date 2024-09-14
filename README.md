@@ -45,6 +45,7 @@ Simply download/copy the `shareMe` folder and run the command below, only availa
 
 - `-p` for port // default is 3000
 - `-d` for directory. // default is your current directory
+- `-s` for https Secure mode // default is https
 
 `node app.js -p 3000 -d ../abc/yourDirectory# sharemydisk`
 

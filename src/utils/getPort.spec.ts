@@ -12,4 +12,10 @@ describe('Testing getPort :: ', () => {
 
     expect(out).toBe(3000);
   });
+
+  it('Get IP Port -s is there  ', () => {
+    const out = getPort(['node', '-s', './']);
+
+    expect(out).toBe(443);
+  });
 });
