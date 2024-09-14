@@ -28,7 +28,7 @@ if (isHttps) {
     };
     sharemydisk = () => {
         const url = 'https://' + (0, getIP_1.default)() + ':' + (0, getPort_1.default)(process.argv);
-        https_1.default.createServer(sslOptions, app).listen(443, () => {
+        https_1.default.createServer(sslOptions, app).listen((0, getPort_1.default)(process.argv), () => {
             console.log('server is up', url);
         });
     };
