@@ -1,7 +1,7 @@
 import getHttps from './getHttps';
 
 export default (arg: string[]) => {
-  if (arg.indexOf('-p') !== -1 && !getHttps(arg)) {
+  if (arg.indexOf('-p') !== -1) {
     return parseInt(arg[arg.indexOf('-p') + 1]);
   } else {
     if (getHttps(arg)) {
